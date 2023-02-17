@@ -202,10 +202,51 @@ section > figure + figure {
 	text-align: right;
 }
 
-#social {
+
+
+
+
+.mainBody {
+  width: 100%;
+  max-width: 80%; /*максимальная ширина может иметь другое значение*/
+  margin: 0 auto;
+}
+
+
+.leftThing {
+  float: left;
+  width: 100%;
+  /*min-height:100px;*/
+  max-width:20%;
+  /*border:2px solid black; */
+
+}
+
+.navigation {
+  /*min-height:100px;*/
+  width: 100%;
+  /*border:2px solid black; */
+  background-color: #aaa;
+}
+
+.post-button {
+  /*border:2px solid black; */
+  height:50px;
+  background-color: #00EFFF;
+}
+
+.news {
+	margin-left:250px;
+	margin-right:250px;
+	background-color:#ddd; 
+}
+
+
+
+.social {
 	float: left;
 	margin-left: 20px;
-	width: 130px;
+	width: 150px;
 }
 
 .social-icon {
@@ -217,28 +258,31 @@ section > figure + figure {
 
 .twitter {
 	background: url(../images/twitter.png);
-	background-position: 0 0;
 }
 
 .google {
 	background: url(../images/google.png);
-	background-position: -30px 0;
 }
 
-.mainBody {
-  width: 100%;
-  max-width: 80%; /*максимальная ширина может иметь другое значение*/
-
-  margin: 0 auto;
+.vk {
+	background: url(../images/vk.png);
+}
+.fox {
+	width: 100px;
+	height: 100px;
+	background: url(../images/fox.jpg);
 }
 
-
-.leftThing {
-  float: left;
-  width: 100%;
-  max-height:100%;
-  max-width:20%;
-  margin: 0 auto;
-  background-color: #ccc;
+.bot {
+	position:relative;
+	bottom: 0px;
+	height:200px;
+	background-color:#555;
 }
 
+bot {
+	position:relative;
+	bottom: 0px;
+	height:200px;
+	background-color:#555;
+}
