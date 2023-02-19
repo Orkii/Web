@@ -1,13 +1,6 @@
 /*Стиль базовых html5 блоков*/
 
-input[type="text"] {
-	background-color: #f3f3f3;
-	border: 1px solid #e7e7e7;
-	height: 30px;
-	color: #b2b2b2;
-	padding: 0 10px;
-	vertical-align: top;
-}
+
 button {
 	color: #fff;
 	background-color: #29c5e6;
@@ -24,9 +17,7 @@ p {
 	margin: auto;
 }
 
-header {
-	padding: 20px 0;
-}
+
 
 
 aside {
@@ -240,8 +231,6 @@ section > figure + figure {
 	background: url(../images/fox.jpg);
 }
 
-
-
 footer {
 	
 	/*position:relative;*/
@@ -275,8 +264,51 @@ body {
   color:black;
   background-color: #00EFFF;
 }
+.post-button:hover {
+	background-color: #00a3ad
+}
+.post-button:active {
+  background-color: #00656b;
+  transform: scale(0.9);
+}
 
 li{
-line-height:30px;
-font-size:16px;
+	line-height:30px;
+	font-size:16px;
 }
+
+
+header {
+	padding: 20px 0;
+	width:1000px;
+	height:50px;
+}
+
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+.headerCenter{
+    width: 100%;
+}
+
+.searcBox{
+	float:right;
+	width:200px;
+}
+
+.topTable{
+	min-width:100%;
+	position:absolute;
+}
+
+
+
+
+
+
