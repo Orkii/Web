@@ -315,6 +315,12 @@ input[type="text"] {
 	background:url(../images/RSUS.gif);
 }
 
+.center {
+  text-align: center;
+  font-size:200px;
+  color:black;
+}
+
 
 
 
