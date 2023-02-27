@@ -65,11 +65,11 @@ nav li {
 }
 
 h1 {
-	display: inline-block;
 	color: #000000;
-	font: 40px/40px 'Oswald', sans-serif;
+	font: 48px/48px 'Oswald', sans-serif;
 	margin: 0;
 	padding: 0 10px;
+	text-align: center;
 }
 
 /*заголовка страницы*/
@@ -301,7 +301,7 @@ input[type="text"] {
 	height:90px;
 }
 
-.searcBox{
+.searchBox{
 	float:right;
 	width:200px;
 }
@@ -317,11 +317,73 @@ input[type="text"] {
 
 .center {
   text-align: center;
-  font-size:200px;
+  font-size:48px;
   color:black;
 }
 
+div p {
+	color: #5B5C5B;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
 
 
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #DAE9F2;
+}
 
+  
+.tweet {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+
+}  
+
+.tweet-content {
+	flex: 1;
+}
+ 
+.tweet-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+  }
+
+.tweet-author {
+	margin-right: 5px;
+}
+
+.tweet-username {
+	color: #555;
+	margin-right: 5px;
+  }
+
+.tweet-date {
+	color: #999;
+}
+
+.tweet-text {
+	margin-bottom: 20px;
+}
+
+.tweet-actions {
+	display: flex;
+}
+
+.action-reply,
+.action-retweet,
+.action-like {
+  margin-right: 10px;
+}
 
