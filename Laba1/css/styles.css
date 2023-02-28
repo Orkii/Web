@@ -362,10 +362,11 @@ div p {
 }
  
 .tweet-header {
+
 	display: flex;
 	align-items: center;
 	margin-bottom: 5px;
-  }
+}
 
 .tweet-author {
 	margin-right: 5px;
@@ -394,7 +395,7 @@ div p {
   margin-right: 10px;
 }
 
-<<<<<<< Updated upstream
+
 .title {
 	font-size: 20px;
 	font-weight: bold;
@@ -439,7 +440,7 @@ div p {
 	text-align: center;
 	margin-left: auto;
 	align-self: flex-end;
-=======
+}
 .userPage {/*#f3f3f3*/
 	margin-left:20%;
 	margin-right:20%;
@@ -471,12 +472,13 @@ div p {
 }
 .userPageTweet{
 	background-color:#bbb;
+	display:flex;
 	
 }
 
 .tweetAnswer{
 
 	margin-top:30px;
-	margin-left:10px;
->>>>>>> Stashed changes
+	margin-left:30px;
+
 }
