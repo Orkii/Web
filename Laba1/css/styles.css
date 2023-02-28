@@ -315,7 +315,7 @@ input[type="text"] {
 }
 
 .topTable{
-	min-width:100%;
+	min-width:1%;
 	position:absolute;
 }
 
@@ -355,7 +355,6 @@ div p {
 	height: 50px;
 	border-radius: 50%;
 	margin-right: 10px;
-
 }  
 
 .tweet-content {
@@ -395,6 +394,7 @@ div p {
   margin-right: 10px;
 }
 
+<<<<<<< Updated upstream
 .title {
 	font-size: 20px;
 	font-weight: bold;
@@ -439,4 +439,44 @@ div p {
 	text-align: center;
 	margin-left: auto;
 	align-self: flex-end;
+=======
+.userPage {/*#f3f3f3*/
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:1%;
+	background-color:#ddd; 
+	min-height: 1000px;
+}
+.userPagePic {
+	height: 200px;
+	background-color:#222; 
+	background-size: 100% 100%;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+}
+
+.bigAvatar {
+	border-radius: 50%;
+	width: 200px; 
+	height: 200px; 
+	margin-left: 20px; 
+
+	border: 5px solid #000;
+}  
+.userPageTweetTable{
+	background-color:#111;
+	margin-left:5%;
+	margin-right:5%;
+	min-width:90%;
+}
+.userPageTweet{
+	background-color:#bbb;
+	
+}
+
+.tweetAnswer{
+
+	margin-top:30px;
+	margin-left:10px;
+>>>>>>> Stashed changes
 }
