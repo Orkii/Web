@@ -184,6 +184,14 @@ section > figure + figure {
 
 }
 
+.rightThing {
+	display: flex;
+	float: right;
+	width: 100%;
+
+	max-width:23%;  
+}
+
 .navigation {
   /*min-height:100px;*/
   width: 100%;
@@ -387,3 +395,48 @@ div p {
   margin-right: 10px;
 }
 
+.title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.friends{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.friend{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+.friend-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.friend-name{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.friend-username{
+	color: #555;
+	margin-bottom: 10px;
+}
+
+.follow-button{
+	background-color: #1da1f2;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	align-self: flex-end;
+}
