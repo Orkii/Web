@@ -180,6 +180,7 @@ section > figure + figure {
   width: 100%;
   /*min-height:100px;*/
   max-width:20%;
+  margin-right: 10px;
   /*border:2px solid black; */
 
 }
@@ -288,7 +289,7 @@ li{
 
 header {
 	padding: 20px 0;
-	width:1000px;
+	width:100%;
 	height:100px;
 }
 
@@ -491,8 +492,8 @@ nav a{
 .chat-page{
 	width: 100%;
 	display: flex;
+	margin-top: 10px;
 	max-width: 1024px;
-	margin: 0 auto;
 }
 .chat-header{
 	width: 100%;
@@ -501,7 +502,7 @@ nav a{
   	display: flex;
   	justify-content: space-between;
   	align-items: center;
-  	padding: 10px 20px;
+
 }
 .chat-header nav ul{
 	display: flex;
@@ -548,9 +549,16 @@ button[type="submit"]{
 }
 
 .user-list{
-	display: flex;
 	flex: 1;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 10px;
+}
+
+.user-list h2{
+	max-height: 50px;
+}
+
+.chat-header h1{
+	color: #fff;
 }
