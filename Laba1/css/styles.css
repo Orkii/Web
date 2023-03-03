@@ -212,6 +212,12 @@ section > figure + figure {
 }
 
 
+footer{
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 80px;
+}
 
 .social {
 	float: left;
