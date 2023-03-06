@@ -583,3 +583,28 @@ button[type="submit"]{
 .chat-header h1{
 	color: #fff;
 }
+
+
+.registerButton, .loginButton{
+  height:50px;
+  color: white;
+  background-color: #1da1f2;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.registerButton{
+	background-color: orange;
+}
+.loginButton{
+  background-color: #1EBAF3;
+}
+
+.loginButton:hover {
+	background-color:#229ce7
+}
+
+.registerButton:hover{
+	background-color: #DA9100
+}
