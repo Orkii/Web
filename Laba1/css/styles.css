@@ -497,9 +497,7 @@ div p {
 }
 
 
-nav a{
-	color: #fff;
-}
+
 
 .chat-page{
 	width: 100%;
@@ -601,10 +599,11 @@ button[type="submit"]{
 	background-color: #DA9100
 }
 
-.leftThing {
+
+
+nav{
   float: left;
   width: 100%;
   max-width: 15%;
   margin-right: 10px;
-
 }
