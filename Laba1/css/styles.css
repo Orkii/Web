@@ -175,15 +175,7 @@ section > figure + figure {
 }
 
 
-.leftThing {
-  float: left;
-  width: 100%;
-  /*min-height:100px;*/
-  max-width: 15%;
-  margin-right: 10px;
-  /*border:2px solid black; */
 
-}
 
 .rightThing {
 	display: flex;
@@ -607,4 +599,12 @@ button[type="submit"]{
 
 .registerButton:hover{
 	background-color: #DA9100
+}
+
+.leftThing {
+  float: left;
+  width: 100%;
+  max-width: 15%;
+  margin-right: 10px;
+
 }
