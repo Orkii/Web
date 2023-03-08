@@ -63,3 +63,19 @@ $(".bigAvatar").click(function() {
 		$("#name").hide("slow");
 	}
 });
+
+
+$(".avatar").hover(function() {
+	console.log("Hover")
+	$(this).animate({
+		width: "100px",
+		height: "100px",
+		borderRadius: "50%"
+		}, "fast");
+	}, function() {
+		$(this).animate({
+		width: "50px",
+		height: "50px",
+		borderRadius: "50%"
+	}, "fast");
+});
