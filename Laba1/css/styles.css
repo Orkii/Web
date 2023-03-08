@@ -644,3 +644,7 @@ nav li:hover {
 	
 	background-color:#ccc;
 }
+
+nav li.active {
+	background-color: #1da1f2;
+}
