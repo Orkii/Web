@@ -18,6 +18,38 @@ else if (main_id == "beige"){
 }
 else if (main_id == "about_us"){
 	menuelem = navlist[4];
+	
+	$(document).ready(function() {
+		$(".hidebox p").hide();
+		$(".hidebox h2").css("background-color", "#1da1f2");
+	});
 }
 
 menuelem.classList.add("active");
+
+
+$(".hidebox h2").click(function() {
+	console.log($(this).children()[0]);
+	if ($(this).children().css('display') == 'none'){
+		console.log("1");
+		$(this).children().show("slow");
+		$(this).css("background-color", "#f3f3f3");
+	}
+	else{
+		console.log("2");
+		$(this).children().hide("slow");
+		$(this).css("background-color", "#1da1f2");
+	}
+});
+/*
+$(document).click(function() {
+	if ($('.hidebox p').css('display') == 'none'){
+		$(".hidebox p").show("slow");
+		$(".hidebox h2").css("background-color", "#1da1f2");
+	}
+	else{
+		$(this).next("p").hide("slow");
+		$(this).css("background-color", "#29c5e6");
+	}
+});
+*/
