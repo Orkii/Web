@@ -3,7 +3,7 @@ var navmenu = document.getElementsByTagName("nav")[0]
 var navlist = navmenu.getElementsByTagName("li");
 var main_id = document.querySelector("main").id;
 var menuelem;
-console.log(main_id);
+
 if (main_id == "index"){
 	menuelem = navlist[0];
 }
@@ -17,8 +17,7 @@ else if (main_id == "beige"){
 	menuelem = navlist[3];
 }
 else if (main_id == "about_us"){
-	console.log(111);
 	menuelem = navlist[4];
 }
-console.log(menuelem);
+
 menuelem.classList.add("active");
