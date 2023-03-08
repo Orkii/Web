@@ -649,3 +649,10 @@ nav li:hover {
 nav li.active {
 	background-color: #1da1f2;
 }
+
+.news h1, h2{
+	color:#000;
+}
+.news p {
+	color:#000;
+}
