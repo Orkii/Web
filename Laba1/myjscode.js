@@ -41,15 +41,25 @@ $(".hidebox h2").click(function() {
 		$(this).css("background-color", "#1da1f2");
 	}
 });
-/*
-$(document).click(function() {
-	if ($('.hidebox p').css('display') == 'none'){
-		$(".hidebox p").show("slow");
-		$(".hidebox h2").css("background-color", "#1da1f2");
+
+$(".bigAvatar").click(function() {
+	console.log("Pic");
+	if($(this).hasClass("big")){
+		$(this).removeClass("big");
+		$(this).animate({
+			borderRadius: "50%",
+			width: "200px", 
+			height: "200px"
+		}, "slow")
+		$("#name").show();
 	}
 	else{
-		$(this).next("p").hide("slow");
-		$(this).css("background-color", "#29c5e6");
+		$(this).addClass("big");
+		$(this).animate({
+			width: "500px",
+			height: "500px",
+			borderRadius: "2%"
+		}, "slow")
+		$("#name").hide("slow");
 	}
 });
-*/
