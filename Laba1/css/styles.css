@@ -566,18 +566,19 @@ button[type="submit"]{
   border-radius: 4px;
 }
 .registerButton{
-	background-color: orange;
+	background-color: #60f211ec;
+	/*background-color: #60F211;*/
 }
 .loginButton{
-  background-color: #1EBAF3;
+	background-color:#38B3FF;
 }
 
 .loginButton:hover {
-	background-color:#229ce7
+	background-color:#229ce7;
 }
 
 .registerButton:hover{
-	background-color: #DA9100
+	background-color: #5bcf1cec;
 }
 
 
@@ -596,7 +597,7 @@ nav{
 	max-width: 15%;
 	margin-right: 10px;
   
-	border:1px solid #000;
+	/*border:1px solid #000;*/
 }
 
 nav a {
