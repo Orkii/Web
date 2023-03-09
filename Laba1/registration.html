@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Laba1)</title>
+    <link rel="stylesheet" href="css/styles.css" href="twitter.png">
+    <link rel="icon" href="images/RSUS.gif" type="image/x-icon">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="registration">
+        <form onsubmit="return false;">
+            <div class="registration-name form-group">
+                <label class="col-4-cm">Имя:</label>
+                <div class="inp col-8-cm">
+                    <input type="text" id="name">
+                </div>
+            </div>
+            <div class="registration-username form-group">
+                <label class="col-4-cm">Ник:</label>
+                <div class="inp col-8-cm">
+                    <input type="text" id="username">
+                </div>
+            </div>
+            <div class="registration-password form-group">
+                <label class="col-4-cm">Пароль:</label>
+                <div class="inp col-8-cm">
+                    <input type="password" id="password">
+                </div>
+            </div>
+            <div class="registration-password form-group">
+                <label class="col-4-cm">Подтвердите пароль:</label>
+                <div class="inp col-8-cm">
+                    <input type="password" id="confirm-password">
+                </div>
+            </div>
+            <button type="submit" onclick="validateForm()">Зарегистрироваться</button>
+        </form>
+    </div>
+
+    <script src="js/registration.js"></script>
+</body>
+
+</html>
