@@ -1,0 +1,30 @@
+extends layout
+
+block content
+
+    <aside>
+        <h2>YOUR REQUEST STATUS</h2>
+        <p id="statusfield"><img src="images/bg1.png" width="230" height="180" alt="Our offices"></p>
+    </aside>
+    <section>
+        <form id="contactform">
+            <fieldset>
+                <legend>CONTACT US</legend>
+                <p><label for="fname">Имя :     </label><br><input type="text" name="fname"></p>
+                <p><label for="lname">Фамилия : </label><br><input type="text" name="lname"></p>
+                <p><label for="email">E-mail :  </label><br><input type="email" name="email"></p>
+                <p>
+                <label>Тип запроса:</label><br>
+                <select name="reqtype">
+                    <option>Сотрудничество</option>
+                    <option>Техническая информация</option>
+                    <option>Ошибка на сайте</option>
+                </select>
+                </p>
+                <p><b>Введите текст запроса:</b></p>
+                <p><textarea rows="10" cols="45" name="reqtext"></textarea></p>
+            </fieldset>
+            <p><input type="submit" id="sendbtn" value="Отправить"></p>
+        </form>		
+    </section>
+    <script type="text/javascript" src="/javascripts/formsend.js"></script>

@@ -1,0 +1,48 @@
+<html>
+
+<head>
+		<meta charset="utf-8">
+		<title>{{title}}</title>
+		<link rel="stylesheet" href="/static/stylesheets/styles.css">
+		<script type="text/javascript" src="/static/javascripts/jquery-3.6.0.min.js"></script>
+</head>
+		<body>
+			<div class="wrapper">
+				<header>
+					<a href="/"><img src="/static/images/logo.png" alt="Whitesquare logo"></a>
+					<form name="search" class="sinput" action="#" method="get">
+						<input type="search" name="q" placeholder="Search"><button type="submit">GO</button>
+					</form>
+					<div class="heading">
+						<h1 id="headname">{{pname}}</h1>
+					</div>
+				</header>
+				{% if navmenu %}
+					<nav>
+						<ul class="top-menu">
+							{% for item in navmenu %}
+								<li><a href="{{item.addr}}">{{item.name}}</a></li>
+							{% endfor %}
+						</ul>
+					</nav>
+				{% endif %}
+				<main id="{{pname}}">
+					{% block content %}{% endblock %}
+				</main>
+			</div>
+			<footer>
+				<div class="footer">
+					<div id="social">
+						<h3>SOCIAL NETWORKS</h3>
+						<a href="http://twitter.com/" class="social-icon twitter"></a>
+						<a href="http://google.com/" class="social-icon google"></a>
+					</div>
+					<div id="footer-logo">
+						<a href="/"><img src="/static/images/footer-logo.png" alt="Whitesquare logo"></a>
+					</div>
+				</div>
+			</footer>
+			<script type="text/javascript" src="/static/javascripts/topmenu.js"></script>
+			<script type="text/javascript" src="/static/javascripts/jqfunc.js"></script>
+		</body>
+</html>
